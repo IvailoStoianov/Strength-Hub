@@ -41,17 +41,18 @@
 .main-section .content .container p{
     margin: 0.5em;
 }
-.main-section .content .container button{
+.main-section .content .container a{
     width: 213px;
-    height: 28px;
     border-radius: 50px;
     border-color: black;
     background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
 }
-.main-section .content .container button p{
-    font-size: 23;
-    margin: 0;
-}
+
 .container p{
     font-size: 11px;
 }
@@ -123,16 +124,7 @@
     width: 498px;
     height: 325px;
 }
-.name{
-    font-size: 18px;
-    font-weight: 500;
-    color: red;
-    margin-top: 1em;
-    background-color: black;
-    padding: 0.4em;
-    border-radius: 50px;
-    text-align: center;
-}
+
 .trainers-section{
     background-color: black;
     display: flex;
@@ -150,6 +142,9 @@
     gap: 2em;
     background-color: black;
 }
+.cards-holder .card {
+    transition: transform 0.5s ease;
+}
 .card{
     background-image: url(../Images/bodybuilder-placeholder.jpg);
     background-size:cover;
@@ -162,16 +157,16 @@
     background-image: url(../Images/ronnie-coleman-squat-barbell.png);
 }
 .card:nth-child(2){
-    background-image: url(../Images/Arnold-Schwarzenegger.png);
+    background-image: url(../Images/bodybuilder-placeholder.jpg);
 }
 .card:nth-child(3){
-    background-image: url(../Images/Arnold-Schwarzenegger.png);
+    background-image: url(../Images/bodybuilder-placeholder.jpg);
 }
 .card:nth-child(4){
-    background-image: url(../Images/Arnold-Schwarzenegger.png);
+    background-image: url(../Images/bodybuilder-placeholder.jpg);
 }
 .card:nth-child(5){
-    background-image: url(../Images/Arnold-Schwarzenegger.png);
+    background-image: url(../Images/bodybuilder-placeholder.jpg);
 }
 .hidden{
     display: none;
@@ -179,6 +174,8 @@
 #crr-card{
     width: 472px;
     height: 264px;
+    transform: scale(1.06);
+    
 }
 .number-holder{
     display: flex;
@@ -188,7 +185,15 @@
     margin-bottom: 1em;
     margin-left: 1em;
 }
-
+.name{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    padding: 0.4em;
+    border-radius: 30px;
+    text-align: center;
+}
 .number-holder .number{
     background-color: black;
     display: inline-block;
@@ -196,7 +201,6 @@
     border-radius: 50px;
     width: 35px;
     text-align: center;
-    color: red;
     font-weight: bold;
 }
 .number-holder .number p{
@@ -221,7 +225,7 @@
     margin-left: 10em;
     margin-right: 10em;
     padding-bottom: 3em;
-    gap: 4em;
+    gap: 1.8em;
 }
 .social-proff h1{
     text-align: center;
@@ -242,6 +246,16 @@
     margin-bottom: 1em;
     margin-top: 2em;
 }
+.social-proff .inner .container{
+    width: 1400px;
+    max-height: 450px;
+    overflow-x: auto;
+}
+.social-proff .inner .container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    
+}
 .review-card{
     display: flex;
     flex-direction: column;
@@ -249,7 +263,19 @@
     align-items: center;
     text-align: center;
     color: white;
+    background-color: rgba(10, 9, 9, 0.7);
+    padding: 2em;
+    border-radius: 30px;
+    min-width: 300px;
+    height: 350px;
+    margin: 1em;
+    user-select: none;
+    transition: transform 0.3s ease; 
 }
+.review-card:hover{
+    transform: scale(1.1);
+}
+
 .review-card h3{
     font-size: 30px;
     font-weight: 500;
@@ -266,4 +292,34 @@
     gap: 0.5em;
     margin-bottom: 1em;
     color: gold
+}
+.call-to-action{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+}
+.call-to-action img{
+    margin-bottom: 3em;
+}
+.call-to-action p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 550px;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.call-to-action a{
+    width: 213px;
+    border-radius: 50px;
+    border-color: black;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
 }
