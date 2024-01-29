@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles/nav-styles.css">
+    <link rel="stylesheet" href="Styles/index-styles.css">
+    <title>Strength Hub</title>
+</head>
+<body>
+    <header class="navigation-header">
+        <nav class="navigation">
+            <img src="Images/Logo.png" alt="Strength Hub Logo" class="Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Images/Programs.html">Programs</a></li>
+                <li><a href="Images/My-workouts.html">My workouts</a></li>
+                <li><a href="Images/Gallery.html">Gallery</a></li>
+                <li><a href="Images/Blog.html">Blog</a></li>
+                <li><a href="Images/Contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-section">
+        <div class="content">
+            <h1>Elevate <span class="text-red">Your</span> Fitness Journey<span class="text-red">!</span></h1>
+            <p>
+                <span class="text-red">Transform</span> your body, renew your energy, 
+                and unleash your full potential with
+                our <span class="text-red">personalized fitness plans</span> designed 
+                to sculpt a <span class="text-red">stronger</span>, <span class="text-red">healthier</span>, and more <span class="text-red">vibrant you.</span>
+            </p>
+            <div class="container">
+                <button class="join-now-btn"> 
+                    <p>Join now</p>
+                </button>
+                <p>Join 10,000+ daily users!</p>
+            </div>
+        </div>
+        <img src="Images/girl-fitness.png" alt="">
+    </section>
+    <section class="summury-benefits">
+        <img src="Images/muscles-icon.png" alt="">
+        <div class="benefits-coontainer">
+            <div class="benefit">
+                <h6>Achieve More, Feel Better</h6>
+                <p>Unlock a world of benefits with our fitness plans. From increased energy to enhanced well-being, discover the positive transformations awaiting you on your journey to a healthier lifestyle.</p>
+            </div>
+            <div class="benefit">
+                <h6>Community-Inspired Plans</h6>
+                <p>Draw motivation from a wealth of user-generated plans. Whether you're a fitness veteran or just starting, benefit from the collective wisdom of our community and discover effective workout routines that suit your needs.</p>
+            </div>
+            <div class="benefit">
+                <h6>Effortless Progress Tracking</h6>
+                <p>Seamlessly monitor your fitness milestones with our intuitive tracking tools. Celebrate achievements, big or small, and witness your progress unfold as you follow your customized path to a healthier, fitter you.</p>
+            </div>
+        </div>
+    </section>
+    <section class="description-section">
+        <div class="description">
+            <h3>Unleash Your Potential: Fitness Redefined</h3>
+            <p>Embark on a transformative fitness journey with our diverse array of plans, ensuring there's a perfect fit for every goal. Whether it's a user-created gem or a professionally curated masterpiece by renowned bodybuilding coaches, find the ideal plan that aligns with your preferences. Showcase your progress, effortlessly share achievements on social channels, and sculpt a healthier, stronger you. Elevate your fitness journey today.</p>
+        </div>
+        <img src="Images/barbel.png" alt="">
+    </section>
+    <section class="trainers-section">
+        <h3>To be the best, learn from the best</h3>
+        <div class="cards-holder">
+            <div class="card" id="crr-card" onclick="changeCard(event)">
+                <div class="number-holder">
+                    <div class="number">
+                        <p>1</p>
+                    </div>
+                    <p class="name">Ronnie Coleman</p>
+                </div>
+                
+            </div>
+            <div class="card" onclick="changeCard(event)">
+                <div class="number-holder">
+                    <div class="number">
+                        <p>2</p>
+                    </div>
+                    <p class="name hidden">Name</p>
+                </div>
+                
+            </div>
+            <div class="card" onclick="changeCard(event)">
+                <div class="number-holder">
+                    <div class="number">
+                        <p>3</p>
+                    </div>
+                    <p class="name hidden">Name</p>
+                </div>
+                
+            </div>  
+            <div class="card" onclick="changeCard(event)">
+                <div class="number-holder ">
+                    <div class="number">
+                        <p>4</p>
+                    </div>
+                    <p class="name hidden">Name</p>
+                </div>
+                
+            </div>  
+            <div class="card" onclick="changeCard(event)">
+                <div class="number-holder">
+                    <div class="number">
+                        <p>5</p>
+                    </div>
+                    <p class="name hidden">Name</p>
+                </div>
+                
+            </div>   
+        </div>
+    </section>
+    <section class="social-proff">
+        <div class="inner">
+            <h1>Reviews</h1>
+            <div class="border"></div>
+            <div class="container">
+                <div class="review-card">
+                    <img src="Images/girl-selfie.jpg" alt="">
+                    <h3 class="full-name">Full Name</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>
+                        "A game-changer! Diverse plans, user-created gems to pro-coach workouts, ensure a fit for every goal, with seamless progress tracking and social sharing—an absolute must-try for serious health and Fitness goals!"
+                    </p>
+                </div>
+                <div class="review-card">
+                    <img src="Images/girl-selfie.jpg" alt="">
+                    <h3 class="full-name">Full Name</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>
+                        "A game-changer! Diverse plans, user-created gems to pro-coach workouts, ensure a fit for every goal, with seamless progress tracking and social sharing—an absolute must-try for serious health and Fitness goals!"
+                    </p>
+                </div>
+                <div class="review-card">
+                    <img src="Images/girl-selfie.jpg" alt="">
+                    <h3 class="full-name">Full Name</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>
+                        "A game-changer! Diverse plans, user-created gems to pro-coach workouts, ensure a fit for every goal, with seamless progress tracking and social sharing—an absolute must-try for serious health and Fitness goals!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/Js/ChangeCards.js"></script>
+</html>
