@@ -1,0 +1,93 @@
+.main{
+    background-color: black;
+    color: white;
+}
+.main .best-selers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.main .best-selers h2{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.show-case {
+    display: flex;
+    justify-content: center;
+}
+
+.show-case .carousel-item {
+    gap: 1rem;
+    display: flex;
+}
+.show-case .carousel-item .crr-img img {
+    width:65vh;
+    height: 100%;
+    object-fit: cover;
+}
+.show-case .carousel-item .crr-workout-showcase .workout-images {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    width: 13rem;
+    margin-bottom: 2rem;
+}
+.tags{
+    display: flex;
+    gap: 7px;
+    width: 13rem;
+    flex-wrap: wrap;
+    margin: 1rem 0 ;
+}
+.tag{
+    background-color: rgba(58, 57, 57, 0.8);
+    padding: 2px 5px;
+}
+.crr-workout-showcase .workout-title{
+    color: #b30000;
+}
+.show-case .carousel-item .crr-workout-showcase .workout-images img {
+    height: 10vh;
+    width: calc(50%-7);
+    height: 5vh;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 25px;
+    padding: 10px;
+    width: 75vh;
+    margin: 0 auto;
+    outline-style: solid;
+    outline-color: red;
+}
+.search-input:focus {
+    outline: none;
+}
+.search-input {
+    flex-grow: 1;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.search-button{
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.search-button:hover {
+    background-color: #b30000;
+}

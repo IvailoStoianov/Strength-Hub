@@ -1,0 +1,55 @@
+.main{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .title{
+    font-size: 2rem;
+    margin: 1rem;
+    color: red;
+}
+
+.main .gallery{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main .gallery > img{
+    height: 25vh;
+    width: 45vh;
+    cursor: pointer;
+}
+.Inspected-picture-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    /* Centering */
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inspected-image{
+    height: 75vh;
+}
+.close-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    padding: 1rem;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    outline: none; /* Add this line to remove the outline */
+}
