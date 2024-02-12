@@ -1,6 +1,7 @@
 
 body{
     background-image: url(../Images/register-login-background.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #000;
 }

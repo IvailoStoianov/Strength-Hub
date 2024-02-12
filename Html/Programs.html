@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/Styles/nav-styles.css">
     <link rel="stylesheet" href="/Styles/footer-styles.css">
     <link rel="stylesheet" href="/Styles/programs-styles.css">
-    <script src="/Js/ChangeSlide.js" defer></script>
+    <script type="module" src="/Js/LoadPrograms.js" defer></script>
+    <script src="/Js/SearchWorkouts.js" defer></script>
     <title>Programs</title>
 </head>
 <body>
@@ -21,12 +22,12 @@
                 <p>Strength Hub</p>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Html/Programs.html">Programs</a></li>
-                <li><a href="Html/My-workouts.html">My workouts</a></li>
-                <li><a href="Html/Gallery.html">Gallery</a></li>
-                <li><a href="Html/Blog.html">Blog</a></li>
-                <li><a href="Html/Contacts.html">Contacts</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Html/Programs.html">Programs</a></li>
+                <li><a href="/Html/My-workouts.html">My workouts</a></li>
+                <li><a href="/Html/Gallery.html">Gallery</a></li>
+                <li><a href="/Html/Blog.html">Blog</a></li>
+                <li><a href="/Html/Contacts.html">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -56,7 +57,9 @@
                             <small class="tag">tag</small>
                             <small class="tag">tag</small>
                         </div>
-                        <p class="price">$0.00</p>
+                        <div class="button-container">
+                            <a href="">Get now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,25 +71,57 @@
                 <i class="fas fa-search"></i>
             </button>
         </div>
+        
         <div class="content">
             <div class="container">
-                <div class="filters">
-                    <a href="">Filters</a>
-                </div>
-                <div class='sort-by'>
-                    <a href="">Sort by</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Sort by
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a id="sort-by-name">Name</a>
+                        <a id="sort-by-rating">Rating</a>
+                        <a id="sort-by-newest">Newest</a>
+                    </div>
                 </div>
             </div>
             <div class="programs-container">
-                <div class="program">
-                    <div class="rating"></div>
-                    <img src="" alt="">
-                    <h3>Workout name</h3>
-                    <small class=>Creator name</small>
-                    <p>$0.00</p>
-                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <div class="item">
+                    <h6>Customer Care</h6>
+                    <ul class="customer-care">
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Inside Strength Hub</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Why Strength Hub</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>My Account</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">Sign In/Register</a></li>
+                        <li><a href="">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Images/Logo1.png" alt="">
+            </div>
+        </div>
+        <p id="copyright">&copy 2023 Strength Hub. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>

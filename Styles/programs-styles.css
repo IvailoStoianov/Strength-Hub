@@ -91,3 +91,153 @@
 .search-button:hover {
     background-color: #b30000;
 }
+
+.button-container{
+    width: 12rem;
+    border-radius: 50px;
+    border-color: black;
+    background-color: red;
+    padding: 0.5em;
+    color: white;
+    font-size: 14px;
+    margin-top: 2em;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.button-container > a{
+    text-decoration: none;
+    color: white;
+}
+.content > .container{
+    align-self: flex-end;
+}
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.container .dropdown{
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+}
+.dropdown-content a {
+    color: #ff0000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1; 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b30000;
+}
+.main > .content{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+}
+.main > .content .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+.filters{
+    background-color: red;
+    padding: 0.1em 1em 0.1em 1em; 
+    border-radius: 20px;
+}
+.filters a{
+    text-decoration: none;
+    color: white;
+}
+.programs-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-direction: row;
+}
+.program{
+    max-width: 28vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.program .rating{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.program .rating{
+}
+.program .rating i{
+    color: #ffcc00;
+}
+.program, .container{
+    position: relative;
+}
+.program img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+.program .text{
+    align-self: flex-start;
+    margin-top: 0.5em;
+    width: 100%;
+}
+.program .text h3{
+    color: #b30000;
+}
+
+.program .text .sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.program .text .sub p{
+    align-self: flex-end;
+}
+.program .text .sub small{
+    color: rgb(73, 73, 73);
+}
+.dropdown-content a{
+    cursor: pointer;
+}
+
+.main{
+    padding-bottom: 2em;
+}
