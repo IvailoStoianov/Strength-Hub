@@ -39,3 +39,79 @@ function myLogPassword() {
 function myRegPassword() {
     togglePasswordVisibility("regPassword", "eye-2", "eye-slash-2");
 }
+
+function generateUserId() {
+    return 'user_' + Date.now();
+}
+
+function updateLoggedInStatus(status) {
+    localStorage.setItem('isLoggedIn', status.toString());
+}
+
+if(localStorage.getItem('isLoggedIn') === 'true') {
+    alert('You are already logged in. Redirecting to the home page.');
+    window.location.href = '/index.html';
+}
+
+
+var isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+
+document.getElementById('register-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var username = document.getElementById('regUsername').value;
+    var email = document.getElementById('regEmail').value;
+    var password = document.getElementById('regPassword').value;
+
+    var userId = generateUserId();
+
+    var existingUsers = JSON.parse(localStorage.getItem('users')) || [];
+    var isUsernameTaken = existingUsers.some(function(user) {
+        return user.username === username;
+    });
+    var isEmailTaken = existingUsers.some(function(user) {
+        return user.email === email;
+    });
+
+    if (isUsernameTaken) {
+        alert('Username already exists. Please choose another one.');
+        return;
+    }
+
+    if (isEmailTaken) {
+        alert('Email address already exists. Please use another one.');
+        return;
+    }
+
+    var newUser = { id: userId, username: username, email: email, password: password };
+    existingUsers.push(newUser);
+    localStorage.setItem('users', JSON.stringify(existingUsers));
+    localStorage.setItem('credentials', JSON.stringify({ username: username, password: password }));
+
+    isLoggedIn = true;
+    updateLoggedInStatus(true);
+
+    window.location.href = '/index.html';
+});
+
+document.getElementById('login-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var email = document.getElementById('logEmail').value;
+    var password = document.getElementById('logPassword').value;
+
+    var existingUsers = JSON.parse(localStorage.getItem('users')) || [];
+
+    var foundUser = existingUsers.find(function(user) {
+        return user.email === email && user.password === password;
+    });
+
+    if (foundUser) {
+        isLoggedIn = true;
+        updateLoggedInStatus(true);
+        window.location.href = '/index.html';
+    } else {
+        alert('Invalid email or password.');
+    }
+});
+
