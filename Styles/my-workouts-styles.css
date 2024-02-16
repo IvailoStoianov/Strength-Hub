@@ -1,0 +1,7 @@
+.start-workout-btn{
+    background-color:red;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}

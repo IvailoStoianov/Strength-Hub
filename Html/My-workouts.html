@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/global.css">
+    <link rel="icon" href="/Images/Logo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Styles/nav-styles.css">
+    <link rel="stylesheet" href="/Styles/footer-styles.css">
+    <link rel="stylesheet" href="/Styles/programs-styles.css">
+    <link rel="stylesheet" href="/Styles/my-workouts-styles.css">
+    <script type="module" src="/Js/LoadMyWrokouts.js" defer></script>
+    <script src="/Js/MyWorkouts.js" defer></script>
+    <script src="/Js/checkLoggedInStatus.js" defer></script>
+    <script src="/Js/SearchWorkouts.js" defer></script>
+    <title>My workouts</title>
+</head>
+<body>
+    <header class="navigation-header">
+        <nav class="navigation">
+            <div class="logo-container">
+                <img src="/Images/Logo1.png" alt="Strength Hub Logo" class="Logo">
+                <div class="separator"></div>
+                <p>Strength Hub</p>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Html/Programs.html">Programs</a></li>
+                <li id="nav-my-workouts"><a href="/Html/My-workouts.html">My workouts</a></li>
+                <li><a href="/Html/Gallery.html">Gallery</a></li>
+                <li><a href="/Html/Blog.html">Blog</a></li>
+                <li><a href="/Html/Contacts.html">Contacts</a></li>
+                <li class="login"><a href="/Html/RegisterLogIn.html">LogIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="dropdown">
+                    <button class="dropbtn">Sort by
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a id="sort-by-name">Name</a>
+                        <a id="sort-by-rating">Rating</a>
+                        <a id="sort-by-newest">Newest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="programs-container">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <div class="item">
+                    <h6>Customer Care</h6>
+                    <ul class="customer-care">
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Inside Strength Hub</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Why Strength Hub</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>My Account</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">Sign In/Register</a></li>
+                        <li><a href="">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Images/Logo1.png" alt="">
+            </div>
+        </div>
+        <p id="copyright">&copy 2023 Strength Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

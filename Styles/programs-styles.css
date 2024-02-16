@@ -241,3 +241,7 @@
 .main{
     padding-bottom: 2em;
 }
+
+.program{
+    cursor: pointer;
+}

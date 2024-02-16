@@ -5,4 +5,6 @@ if(localStorage.getItem('isLoggedIn') === 'true') {
     loginBtn.addEventListener('click', function() {
         localStorage.setItem('isLoggedIn', 'false');
     });
+    let myWorkoutsNav = document.getElementById('nav-my-workouts');
+    myWorkoutsNav.style.display = 'block';
 }
