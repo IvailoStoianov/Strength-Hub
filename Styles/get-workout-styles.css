@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+
+}
+
+.workout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    height: 50vh;
+}
+.thumbs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+#active{
+    height: 33.5vh;
+    align-self: center;
+}
+.thumbs img{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+}
+.workout-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.name{
+    color: white;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.rating i{
+    color:gold;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+}
+.tag{
+    background-color: rgba(58, 57, 57, 0.8);
+    padding: 2px 5px;
+    color: white;
+}
+.workout-info .separator{
+    background-color: red;
+    height: 0.5em;
+    width: 100%;
+}
+.description{
+    color: white;
+}
+.description-info{
+    color: white;
+}
