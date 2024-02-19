@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/Styles/nav-styles.css">
     <link rel="stylesheet" href="/Styles/footer-styles.css">
     <link rel="stylesheet" href="/Styles/get-workout-styles.css">
-    <script type="module" src="/Js/LoadMyWrokouts.js" defer></script>
+    <script src="/Js/AddReview.js" defer></script>
+    <script src="/Js/reviews.js" defer></script>
+    <script type="module" src="/Js/GetWorkout.js" defer></script>
     <script src="/Js/checkLoggedInStatus.js" defer></script>
     <title>Full Body Blast</title>
 </head>
@@ -46,34 +48,13 @@
             <div class="workout-info">
                 <h1 class="name">Workout Name</h1>
                 <div class="rating">
-                    <i class="fa fa-solid fa-star fa-2x"></i>
-                    <i class="fa fa-solid fa-star fa-2x"></i>
-                    <i class="fa fa-solid fa-star fa-2x"></i>
-                    <i class="fa fa-solid fa-star fa-2x"></i>
-                    <i class="fa fa-solid fa-star fa-2x"></i>
+                    <i class="fa fa-regular fa-star fa-2x"></i>
+                    <i class="fa fa-regular fa-star fa-2x"></i>
+                    <i class="fa fa-regular fa-star fa-2x"></i>
+                    <i class="fa fa-regular fa-star fa-2x"></i>
+                    <i class="fa fa-regular fa-star fa-2x"></i>
                 </div>
                 <div class="tags">
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
-                    <p class="tag">tag</p>
                 </div>
                 <div class="separator"></div>
                 <h3 class="description">Description</h3>
@@ -81,6 +62,113 @@
                 <button class="add-workout-btn">Add workout</button>
             </div>
         </div>
+        <div class="reviews">
+            <div class="separator"></div>
+            <h1>Reviews</h1>
+            <div class="review-form">
+                <h2>Write your review!</h1>
+                <div id="reviewForm">
+                    <textarea id="reviewText" rows="4" placeholder="Write your review here"></textarea>
+                        <div class="rating-group">
+                            <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                            <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                            <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                            <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                            <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                            <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                        </div>
+                    <button value="Submit Review" class="add-review"> Submit Review</button>
+                </div>
+            </div>
+            <div class="reviews-display">
+                <div class="dropdown">
+                    <button class="dropbtn">Sort by
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a id="sort-by-name">Name</a>
+                        <a id="sort-by-rating">Rating</a>
+                        <a id="sort-by-newest">Newest</a>
+                    </div>
+                </div>
+                <div class="spread">
+                    <div class="review">
+                        <div class="rating">
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                        </div>
+                        <h2 class="username">Username</h2>
+                        <small class="date">02.02.2000</small>
+                        <p class="review-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam provident suscipit architecto dolorum, sint harum praesentium numquam iste eos eveniet at nulla quos laboriosam eaque vel saepe? Ut, molestias quibusdam.</p>
+                    </div>
+                    <div class="review">
+                        <div class="rating">
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                        </div>
+                        <h2 class="username">Username</h2>
+                        <small class="date">02.02.2000</small>
+                        <p class="review-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam provident suscipit architecto dolorum, sint harum praesentium numquam iste eos eveniet at nulla quos laboriosam eaque vel saepe? Ut, molestias quibusdam.</p>
+                    </div><div class="review">
+                        <div class="rating">
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                            <i class="fa fa-solid fa-star"></i>
+                        </div>
+                        <h2 class="username">Username</h2>
+                        <small class="date">02.02.2000</small>
+                        <p class="review-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam provident suscipit architecto dolorum, sint harum praesentium numquam iste eos eveniet at nulla quos laboriosam eaque vel saepe? Ut, molestias quibusdam.</p>
+                    </div>              
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <div class="item">
+                    <h6>Customer Care</h6>
+                    <ul class="customer-care">
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>Inside Strength Hub</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Why Strength Hub</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h6>My Account</h6>
+                    <ul class="inside-strength-hub">
+                        <li><a href="">Sign In/Register</a></li>
+                        <li><a href="">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Images/Logo1.png" alt="">
+            </div>
+        </div>
+        <p id="copyright">&copy 2023 Strength Hub. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>

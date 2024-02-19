@@ -24,6 +24,7 @@ function createTextElement(tagName, text) {
 function createProgramElement(program) {
     const programDiv = document.createElement("div");
     programDiv.classList.add("program");
+    programDiv.setAttribute('data-id', program.id);
 
     const container = document.createElement("div");
     container.classList.add("container");
