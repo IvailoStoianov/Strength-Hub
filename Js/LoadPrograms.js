@@ -72,7 +72,7 @@ bestSellersDiv.setAttribute('data-id', workout.id);
 
 const featuredTitle = document.createElement('h2');
 featuredTitle.classList.add('featured-title');
-featuredTitle.textContent = 'Most used this week';
+featuredTitle.textContent = 'Най-използван тази  седмица';
 
 const showcaseDiv = document.createElement('div');
 showcaseDiv.classList.add('show-case');
@@ -105,7 +105,7 @@ workout.supporting_images_paths.forEach(imagePath => {
 });
 
 const availableHeading = document.createElement('h3');
-availableHeading.textContent = 'Now Available';
+availableHeading.textContent = 'Сега достъпен';
 
 const tagsDiv = document.createElement('div');
 tagsDiv.classList.add('tags');
@@ -121,7 +121,7 @@ const buttonContainerDiv = document.createElement('div');
 buttonContainerDiv.classList.add('button-container');
 
 const getNowLink = document.createElement('a');
-getNowLink.textContent = 'Get now';
+getNowLink.textContent = 'Вземи сега';
 
 buttonContainerDiv.appendChild(getNowLink);
 workoutShowcaseDiv.appendChild(workoutTitle);
