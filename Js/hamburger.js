@@ -1,8 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const navigation = document.querySelector('.navigation');
-
-    hamburgerMenu.addEventListener('click', function() {
-        navigation.classList.toggle('active');
-    });
+let hamburger = document.querySelector('.hamburger-menu');
+hamburger.addEventListener('click', function() {
+    let navigation = document.querySelector('.navigation .nav-links');
+    if(navigation.style.display === 'block') {
+    navigation.style.display = 'none';
+    } else {
+    navigation.style.display = 'block';
+    }
 });
