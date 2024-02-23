@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1200px) {  
+    .search-bar{
+        width: 75vw;
+    }
+    article{
+        width: calc(50% - 20px);
+    }
+    .read-more-btn{
+        display: none;
+    }   
+}

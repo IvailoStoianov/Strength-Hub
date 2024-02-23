@@ -6,5 +6,5 @@ if(localStorage.getItem('isLoggedIn') === 'true') {
         localStorage.setItem('isLoggedIn', 'false');
     });
     let myWorkoutsNav = document.getElementById('nav-my-workouts');
-    myWorkoutsNav.style.display = 'block';
+    //myWorkoutsNav.style.display = 'block';
 }

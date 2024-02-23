@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1200px) {  
+    .featured-title{
+        display: none;
+    }
+    .show-case{
+        width: 10vw;
+        height: 20vh;
+        display: none;
+    }
+    .crr-workout-showcase{
+        flex-direction: row;
+    }
+    .search-bar{
+        width: 70vw;
+    }
+    .programs-container .program{
+        width: 50vw;
+        height: 35vh;
+    }
+}

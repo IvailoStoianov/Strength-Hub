@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1200px) {
+
+    .main-section{
+        width: 100vw;
+        height: auto;
+    }
+    .main-section .content{
+        margin-left: 2em;
+        padding-top: 0;
+        justify-self: center;
+        align-self: center;
+    }
+    .main-section .content h1{
+        font-size: 2em;
+        
+    }
+    .main-section img{
+        width: 60vw;
+        height: 50vh;
+        margin-right: 0;
+
+
+    }
+    .main-section .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-section .container a{
+        padding: 0.2em;
+        height: auto;
+        align-self: left;
+    }
+    .small-txt{
+        font-size: 1em;
+        margin: 0px;
+    }
+    .benefits-coontainer{
+        flex-direction: column;
+    }
+    .description-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .trainers-section{
+        display: none;
+    }
+}
