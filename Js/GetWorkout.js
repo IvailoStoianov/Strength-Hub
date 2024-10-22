@@ -45,7 +45,11 @@ function renderProgram(workout){
     let description = document.querySelector('.description-info');
     description.innerHTML = workout.description;
 
-    //TODO add an event listener to the Add workout button.
 }
 
 renderProgram(workout);
+
+
+
+
+

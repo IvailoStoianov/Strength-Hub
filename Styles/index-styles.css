@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 
 .main-section{
     background-color: black;
@@ -97,7 +100,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 12em;
+    gap: 4em;
     background-color: black;
 }
 .number p{
@@ -147,26 +150,26 @@
 }
 .card{
     background-image: url(../Images/bodybuilder-placeholder.jpg);
-    background-size:cover;
+    background-size: cover;
     width: 74px;
     height: 264px;
     border-radius: 20px;
     display: flex;
 }
 .card:nth-child(1){
-    background-image: url(../Images/ronnie-coleman-squat-barbell.png);
+    background-image: url(../Images/Trainers/Trainer1.jpg);
 }
 .card:nth-child(2){
-    background-image: url(../Images/bodybuilder-placeholder.jpg);
+    background-image: url(../Images/Trainers/Trainer2.jpg);
 }
 .card:nth-child(3){
-    background-image: url(../Images/bodybuilder-placeholder.jpg);
+    background-image: url(../Images/Trainers/Trainer3.jpg);
 }
 .card:nth-child(4){
-    background-image: url(../Images/bodybuilder-placeholder.jpg);
+    background-image: url(../Images/Trainers/Trainer4.jpg);
 }
 .card:nth-child(5){
-    background-image: url(../Images/bodybuilder-placeholder.jpg);
+    background-image: url(../Images/Trainers/Trainer5.jpg);
 }
 .hidden{
     display: none;

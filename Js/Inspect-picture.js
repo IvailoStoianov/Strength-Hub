@@ -2,8 +2,6 @@ let images = document.querySelectorAll('.gallery img');
 let container = document.createElement('div');
 container.classList.add('Inspected-picture-container');
 
-console.log('Image clicked');
-
 images.forEach(image => {
     image.addEventListener('click', function () {
         document.body.appendChild(container);
@@ -25,3 +23,7 @@ images.forEach(image => {
         });
     });
 });
+
+
+
+

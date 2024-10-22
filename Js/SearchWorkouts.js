@@ -39,7 +39,6 @@ function sortByName() {
         programsContainer.appendChild(program);
     });
 }
-
 function sortByRating() {
     let programsContainer = document.querySelector('.programs-container');
     let programs = Array.from(programsContainer.querySelectorAll('.program'));
@@ -55,7 +54,6 @@ function sortByRating() {
         programsContainer.appendChild(program);
     });
 }
-
 function sortByNewest() {
     let programsContainer = document.querySelector('.programs-container');
     let programs = Array.from(programsContainer.querySelectorAll('.program'));
@@ -71,12 +69,10 @@ function sortByNewest() {
         programsContainer.appendChild(program);
     });
 }
-
 function getReleaseDate(programElement) {
     let dateElement = programElement.querySelector('.sub > p');
     return dateElement.textContent.trim();
 }
-
 document.querySelector('#sort-by-name').addEventListener('click', sortByName);
 document.querySelector('#sort-by-rating').addEventListener('click', sortByRating);
 document.querySelector('#sort-by-newest').addEventListener('click', sortByNewest);

@@ -5,15 +5,15 @@
     "description": "Високоинтензивна тренировъчна сесия в интервален режим за пълно тяло.",
     "creator_name": "Емили Смит",
     "tags": ["ВИИТ", "кръг", "цяло тяло", "интензивно"],
-    "image_path": "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
+    "image_path": "/Images/Programs/program1.jpg",
     "rating": 5,
     "release_date": "2023-01-15",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/bodybuilder-placeholder.jpg",
-      "/Images/bodybuilder-placeholder.jpg",
-      "/Images/bodybuilder-placeholder.jpg",
-      "/Images/bodybuilder-placeholder.jpg"
+      "/Images/Programs/program1.jpg",
+      "/Images/Programs/program1.jpg",
+      "/Images/Programs/program1.jpg",
+      "/Images/Programs/program1.jpg"
     ]
   },
   {
@@ -22,15 +22,15 @@
     "description": "Програма за начинаещи за силов тренинг, фокусираща се върху основни упражнения.",
     "creator_name": "Джейк Джонсън",
     "tags": ["сила", "начинаещи", "основи", "теглолифтинг"],
-    "image_path": "/Images/Programs/JakeJohnsonStrengthTrainingBasics.png",
+    "image_path": "/Images/Programs/program2.jpg",
     "rating": 4,
     "release_date": "2023-02-05",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program2.jpg",
+      "/Images/Programs/program2.jpg",
+      "/Images/Programs/program2.jpg",
+      "/Images/Programs/program2.jpg"
     ]
   },
   {
@@ -39,15 +39,15 @@
     "description": "Високоенергийна кардио тренировка, вдъхновена от движения на бойните изкуства.",
     "creator_name": "Хлое Мартинес",
     "tags": ["кардио", "кикбокс", "ВИИТ", "ловкост", "издръжливост"],
-    "image_path": "/Images/Programs/ChloeMartinezCardioKickboxing.png",
+    "image_path": "/Images/Programs/program3.jpg",
     "rating": 4,
     "release_date": "2023-03-25",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program3.jpg",
+      "/Images/Programs/program3.jpg",
+      "/Images/Programs/program3.jpg",
+      "/Images/Programs/program3.jpg"
     ]
   },
   {
@@ -56,15 +56,15 @@
     "description": "Забавна и енергична танцова тренировка за кардио и координация.",
     "creator_name": "Лукас Браун",
     "tags": ["танц", "кардио", "координация", "забавление"],
-    "image_path": "/Images/Programs/LucasBrownDynamicDanceWorkout.png",
+    "image_path": "/Images/Programs/program4.jpg",
     "rating": 5,
     "release_date": "2023-04-20",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program4.jpg",
+      "/Images/Programs/program4.jpg",
+      "/Images/Programs/program4.jpg",
+      "/Images/Programs/program4.jpg"
     ]
   },
   {
@@ -73,15 +73,15 @@
     "description": "Комбинира силови упражнения с упражнения за гъвкавост, вдъхновени от йога, за баланс.",
     "creator_name": "Ела Тейлър",
     "tags": ["сила", "гъвкавост", "фюжън", "баланс"],
-    "image_path": "/Images/Programs/EllaTaylorStrengthFlexibilityFusion.png",
+    "image_path": "/Images/Programs/program5.jpg",
     "rating": 4,
     "release_date": "2023-05-10",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program5.jpg",
+      "/Images/Programs/program5.jpg",
+      "/Images/Programs/program5.jpg",
+      "/Images/Programs/program5.jpg"
     ]
   },
   {
@@ -90,15 +90,15 @@
     "description": "Тренировка в стил Табата с бързи порции от упражнения с висока интензивност.",
     "creator_name": "Ава Джонсън",
     "tags": ["Табата", "ВИИТ", "кардио", "интензивност"],
-    "image_path": "/Images/Programs/AvaJohnsonRapidFireTabata.png",
+    "image_path": "/Images/Programs/program6.jpg",
     "rating": 4,
     "release_date": "2023-06-25",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program6.jpg",
+      "/Images/Programs/program6.jpg",
+      "/Images/Programs/program6.jpg",
+      "/Images/Programs/program6.jpg"
     ]
   },
   {
@@ -107,15 +107,15 @@
     "description": "Интензивна тренировка за горното тяло, за да стимулира мускулите до край.",
     "creator_name": "Джейн Симънс",
     "tags": ["горно тяло", "мускулно изтощение", "интензивност"],
-    "image_path": "/Images/Programs/JaneSimmonsUpperBodyExhaust.png",
+    "image_path": "/Images/Programs/program7.jpg",
     "rating": 5,
     "release_date": "2023-07-10",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program7.jpg",
+      "/Images/Programs/program7.jpg",
+      "/Images/Programs/program7.jpg",
+      "/Images/Programs/program7.jpg"
     ]
   },
   {
@@ -124,15 +124,15 @@
     "description": "Специализирана програма за изграждане на силна и формирана задна част на раменете.",
     "creator_name": "Майкъл Браун",
     "tags": ["задни делтови", "рамене", "издръжливост", "форма"],
-    "image_path": "/Images/Programs/MichaelBrownRearDeltWorkouts.png",
+    "image_path": "/Images/Programs/program8.jpg",
     "rating": 4,
     "release_date": "2023-08-20",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program8.jpg",
+      "/Images/Programs/program8.jpg",
+      "/Images/Programs/program8.jpg",
+      "/Images/Programs/program8.jpg"
     ]
   },
   {
@@ -141,15 +141,15 @@
     "description": "Сесии за стречинг и релаксация, за да подобрите гъвкавостта и да намалите стреса.",
     "creator_name": "Сара Уайт",
     "tags": ["стречинг", "релаксация", "йога", "здраве"],
-    "image_path": "/Images/Programs/SarahWhiteStretchingRelaxation.png",
+    "image_path": "/Images/Programs/program9.jpg",
     "rating": 5,
     "release_date": "2023-09-15",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program9.jpg",
+      "/Images/Programs/program9.jpg",
+      "/Images/Programs/program9.jpg",
+      "/Images/Programs/program9.jpg"
     ]
   },
   {
@@ -158,15 +158,117 @@
     "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
     "creator_name": "Мая Джонсън",
     "tags": ["танци", "хип-хоп", "калории", "забавление"],
-    "image_path": "/Images/Programs/MayaJohnsonHipHopPower.png",
+    "image_path": "/Images/Programs/program10.jpg",
     "rating": 4,
     "release_date": "2023-10-10",
     "reviews": [],
     "supporting_images_paths": [
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png",
-      "/Images/Programs/LandonMartinezBodyweightBootcampBlitz.png"
+      "/Images/Programs/program10.jpg",
+      "/Images/Programs/program10.jpg",
+      "/Images/Programs/program10.jpg",
+      "/Images/Programs/program10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program11.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program11.jpg",
+      "/Images/Programs/program11.jpg",
+      "/Images/Programs/program11.jpg",
+      "/Images/Programs/program11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program12.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program12.jpg",
+      "/Images/Programs/program12.jpg",
+      "/Images/Programs/program12.jpg",
+      "/Images/Programs/program12.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program13.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program13.jpg",
+      "/Images/Programs/program13.jpg",
+      "/Images/Programs/program13.jpg",
+      "/Images/Programs/program13.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program14.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program14.jpg",
+      "/Images/Programs/program14.jpg",
+      "/Images/Programs/program14.jpg",
+      "/Images/Programs/program14.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program15.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program15.jpg",
+      "/Images/Programs/program15.jpg",
+      "/Images/Programs/program15.jpg",
+      "/Images/Programs/program15.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Хип-Хоп Танцови Мощности",
+    "description": "Енергична тренировка с хип-хоп танци, която изгаря калории и забавлява.",
+    "creator_name": "Мая Джонсън",
+    "tags": ["танци", "хип-хоп", "калории", "забавление"],
+    "image_path": "/Images/Programs/program16.jpg",
+    "rating": 4,
+    "release_date": "2023-10-10",
+    "reviews": [],
+    "supporting_images_paths": [
+      "/Images/Programs/program16.jpg",
+      "/Images/Programs/program16.jpg",
+      "/Images/Programs/program16.jpg",
+      "/Images/Programs/program16.jpg"
     ]
   }
 ]
