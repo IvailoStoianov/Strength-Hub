@@ -1,4 +1,4 @@
-import programs from '/Json/programs.json' assert { type: "json" };
+import programs from '/Json/programs.json' with { type: "json" };
 
 const urlParams = new URLSearchParams(window.location.search);
 const workoutId = urlParams.get('id');

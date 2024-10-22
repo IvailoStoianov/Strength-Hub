@@ -1,4 +1,4 @@
-import programs from '/Json/programs.json' assert { type: "json" };
+import programs from '/Json/programs.json' with { type: "json" };
 
 const parentElement = document.querySelector('.programs-container');
 
